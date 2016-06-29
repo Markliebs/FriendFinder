@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Finder Survey</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<div id="main-content" class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h1><strong>You can find your friends, after you answer these few questions</strong></h1>
+					<div class="well">
+						<div class="input-group">
+							<h3>About you...</h3>
+							<p>Name (Required)</p>
+							<input type="text" id="name" class="form-control" aria-describedby="basic-addon1">
+						</div>
+						<div class="input-group">
+							<p>Link your Photo (Required)</p>
+							<input type="text" id="photo" class="form-control" aria-describedby="basic-addon1">
+						</div>
+					</div>
+					<div class="well" id="survey">
+						<h1><strong>Survey</strong></h1>
+						<h3><strong>Question 1</strong></h3>
+						<h4>You prefer coffee over tea</h4>
+						<select data-placeholder="" class="chosen-select" id="q1">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+						<h3><strong>Question 2</strong></h3>
+						<h4>You like cheerios more than Capt. Crunch.</h4>
+						<select data-placeholder="" class="chosen-select" id="q2">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+						<h3><strong>Question 3</strong></h3>
+						<h4>Bacon is not just a thing, it's the only thing.</h4>
+						<select data-placeholder="" class="chosen-select" id="q3">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+						<h3><strong>Question 4</strong></h3>
+						<h4>You are comfortable wearing a fanny pack in public in 2016.</h4>
+						<select data-placeholder="" class="chosen-select" id="q4">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+				      	<h3><strong>Question 5</strong></h3>
+						<h4>You know the air speed velocity of an unladen swallow.</h4>
+						<select data-placeholder="" class="chosen-select" id="q5">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+				      	<h3><strong>Question 6</strong></h3>
+						<h4>You believe that children are the future.</h4>
+						<select data-placeholder="" class="chosen-select" id="q6">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+				      	<h3><strong>Question 7</strong></h3>
+						<h4>Star Wars > Star Trek.</h4>
+						<select data-placeholder="" class="chosen-select" id="q7">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+				      	<h3><strong>Question 8</strong></h3>
+						<h4>Jar-Jar Binks is the hero we deserve.</h4>
+						<select data-placeholder="" class="chosen-select" id="q8">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+				      	<h3><strong>Question 9</strong></h3>
+						<h4>Putting catsup on a hot pretzel is not wierd at all.</h4>
+						<select data-placeholder="" class="chosen-select" id="q9">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+				      	<h3><strong>Question 10</strong></h3>
+						<h4>You enjoy the first Ace Ventura movie but lothe the sequel.</h4>
+						<select data-placeholder="" class="chosen-select" id="q10">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+					</div>
+					<button type="submit" id="submit" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-check"></span>Submit</button>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Congratulations</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="push"></div>
+	</div>
+	<footer class="footer">
+		<p id="copyright">&copy;Copyright 2016 Mark Lieberman</p>
+	</footer>
+	<script type="text/javascript">
+		$('#submit').on('click', function(){
+			var newFriend = {
+				'name': $('#name').val().trim(),
+				'photo': $('#photo').val().trim(),
+				'scores': [$('#q1').val(),$('#q2').val(),$('#q3').val(),$('#q4').val(),$('#q5').val(),$('#q6').val(),$('#q7').val(),$('#q8').val(),$('#q9').val(),$('#q10').val()]
+			};
+
+			console.log(newFriend);
+
+			var currentURL = window.location.origin;
+
+		    $.post(currentURL+"/api/friends", newFriend, function(data){
+		    	console.log(data);
+		    	
+		    })
+		    	.done(function(data){
+		    		console.log(data);
+		    		$('.modal-body').append('<h1> New friend found!</h1>'+
+		    								'<h3> '+data.name+ '</h3>'+
+		    								'<img src="'+data.photo+'" width=300px>');
+			    	$('#myModal').modal('toggle');
+		    });
+		})
+	</script>
+</body>
+</html>

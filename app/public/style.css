@@ -1,0 +1,32 @@
+#myModal img {
+    margin: 0 123px;
+}
+
+ .push {
+    height: 105px;
+    clear: both;
+}
+
+   /*Footer*/
+
+footer {
+    position: fixed;
+    width: 100%;
+    padding: 5px 0;
+    border-top: 8px solid mediumblue;
+    clear: both;
+    text-align: center;
+    background-color: #000;
+    height: 3em;
+    width: 100%;
+    z-index: 3;
+    bottom: 0;
+}
+
+#copyright {
+    color: #0BFDFF;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
