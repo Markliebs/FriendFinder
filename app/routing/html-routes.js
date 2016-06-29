@@ -1,4 +1,4 @@
-//app requires path moduleto 
+//app requires path module
 var path = require('path');
 
 // HTML Routes
