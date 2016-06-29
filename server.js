@@ -5,7 +5,7 @@ var path = require('path');
 
 //express config.
 var app = express();
-var PORT = 3000;
+var PORT = 4200;
 
 //using BodyParser to more easily interpret data
 app.use(bodyParser.json());
